@@ -7,6 +7,8 @@ import Footer from "./Footer.tsx";
 import About from "./About.tsx";
 import Events from "./Events.tsx";
 import ReEvents from "./ReEvents.tsx";
+import Team from "./Team.tsx";
+import Contacts from "./Contacts.tsx";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/ReEvents" element={<ReEvents />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contacts />} />
         </Routes>
         <Footer />
       </BrowserRouter>

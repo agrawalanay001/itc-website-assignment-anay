@@ -25,9 +25,15 @@ const Footer = () => {
         <div style={{ fontSize: "14px" }}>© 2026 ITC, IIT Bombay</div>
 
         <div style={{ display: "flex", gap: "20px", fontSize: "22px" }}>
-          <IoLogoInstagram style={{ cursor: "pointer" }} />
-          <MdOutlineFacebook style={{ cursor: "pointer" }} />
-          <FaTwitter style={{ cursor: "pointer" }} />
+          <a href="https://www.instagram.com/tech.iitb/">
+            <IoLogoInstagram style={{ cursor: "pointer" }} />
+          </a>
+          <a href="https://www.facebook.com/tech.iitb/">
+            <MdOutlineFacebook style={{ cursor: "pointer" }} />
+          </a>
+          <a href="https://x.com/tech_iitb/">
+            <FaTwitter style={{ cursor: "pointer" }} />
+          </a>
         </div>
       </div>
     </div>
